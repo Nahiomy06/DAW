@@ -1,0 +1,9 @@
+.banner {
+    height: 600px;
+    background-image: url("tu-imagen.jpg");
+    background-size: cover;
+}
+
+.nuevaCollecion {
+    margin-top: 5%;
+}
