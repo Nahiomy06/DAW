@@ -5,5 +5,14 @@
 }
 
 .nuevaCollecion {
-    margin-top: 5%;
+    margin-top: 6%;
+}
+
+.imageCarousel {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.carousel-item .d-flex {
+    overflow: hidden;
 }
