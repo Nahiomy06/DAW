@@ -1,44 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Colecciones | Lunéa</title>
+
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
             rel="stylesheet"
         >
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+        >
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <nav class="navbar navbar-expand-lg site-nav">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Lunéa</a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto gap-3">
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="colecciones.html">Collections</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="#">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="conctactanos.html">Contact us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="#">Your Cart</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="#">Login</a>
-                    </li>
-                </ul>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="colecciones.html">Colecciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobrenosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="conctactanos.html">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tu carrito</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Iniciar sesión</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
+
+        <header class="page-intro">
+            <div class="page-container">
+                <p class="eyebrow">La selección Lunéa</p>
+                <h1>Nuestras Colecciones</h1>
+                <p>
+                    Descubre joyas para cada estado de ánimo, cada ocasión
+                    y cada versión de ti.
+                </p>
+            </div>
+        </header>
+
+        <main>
+            <section class="section" style="padding-top: 15px;">
+                <div class="page-container">
+                    <div class="collection-grid">
+
+                        <article class="collection-card">
+                            <a href="#astree">
+                                <img
+                                    src="https://i.pinimg.com/736x/0c/64/9f/0c649fea293d87f5c1ac8feec897acba.jpg"
+                                    alt="Colección Astrée"
+                                >
+                            </a>
+                            <div class="collection-card-content">
+                                <p class="eyebrow">01 — Celestial</p>
+                                <h3>Astrée</h3>
+                                <p>
+                                    Inspirada en la luna y las estrellas, con
+                                    piezas delicadas que aportan un toque de magia
+                                    a tu estilo diario.
+                                </p>
+                                <a class="btn-lunea" href="#astree">Descubrir más</a>
+                            </div>
+                        </article>
+
+                        <article class="collection-card">
+                            <a href="#amour">
+                                <img
+                                    src="https://i.pinimg.com/736x/eb/87/e7/eb87e74567ef4de8c2a3544a487fac95.jpg"
+                                    alt="Colección Amour"
+                                >
+                            </a>
+                            <div class="collection-card-content">
+                                <p class="eyebrow">02 — Romántica</p>
+                                <h3>Amour</h3>
+                                <p>
+                                    Formas suaves y detalles pensados con cariño,
+                                    creados para momentos especiales y
+                                    regalos inolvidables.
+                                </p>
+                                <a class="btn-lunea" href="#amour">Descubrir más</a>
+                            </div>
+                        </article>
+
+                        <article class="collection-card">
+                            <a href="#eclat">
+                                <img
+                                    src="https://i.pinimg.com/1200x/a8/d1/ce/a8d1ce3bd11b68d3aaff6e33dc795d5f.jpg"
+                                    alt="Colección Éclat"
+                                >
+                            </a>
+                            <div class="collection-card-content">
+                                <p class="eyebrow">03 — Para cada día</p>
+                                <h3>Éclat</h3>
+                                <p>
+                                    Diseños minimalistas y versátiles que añaden
+                                    un sutil toque de elegancia a cualquier atuendo.
+                                </p>
+                                <a class="btn-lunea" href="#eclat">Descubrir más</a>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="brand-strip">
+                <div class="page-container">
+                    <p class="eyebrow">Una pieza de tu historia</p>
+                    <h2>Encuentra la joya que encaje contigo</h2>
+                    <p>
+                        Ya sea que prefieras los detalles sutiles o las piezas llamativas,
+                        siempre hay algo esperando a ser descubierto.
+                    </p>
+                    <a class="btn-lunea" href="conctactanos.html">
+                        Ponte en contacto
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2026 Lunéa Jewellery. Todos los derechos reservados.</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
