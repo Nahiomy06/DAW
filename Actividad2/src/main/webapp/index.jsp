@@ -1,0 +1,174 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lunéa | Joyería</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        >
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+        >
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg site-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Lunéa</a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="colecciones.html">Colecciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobrenosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="conctactanos.html">Contáctanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tu carrito</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Iniciar sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Joyería hecha para hacerte sentir especial</p>
+                <h1>Un poco de brillo.<br>Mucho de ti.</h1>
+                <p>
+                    Descubre piezas delicadas que celebran tu estilo
+                    y hacen que los momentos cotidianos sean inolvidables.
+                </p>
+                <a class="hero-button" href="colecciones.html">
+                    Explorar colecciones
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <section class="section section-bestsellers">
+                <div class="page-container">
+                    <div class="bestsellers-header">
+                        <div class="bestsellers-title">
+                            <h2>Más vendidos.</h2>
+                            <p>Explora nuestros favoritos, desde aros resplandecientes hasta joyas familiares únicas.</p>
+                        </div>
+                        <a class="btn-take-look" href="colecciones.html">ECHAR UN VISTAZO.</a>
+                    </div>
+
+                    <div class="carousel-shell" id="imageCarousel">
+                        <div class="image-track-window" id="imageWindow">
+                            <div class="image-track" id="imageTrack">
+
+                                <a class="jewel-card" href="colecciones.html">
+                                    <div class="jewel-card-img-wrap">
+                                        <img src="https://i.pinimg.com/736x/87/a5/cc/87a5cc2e5f35dcc8c6500f23540da42f.jpg" alt="Crescent Moon Pendant">
+                                    </div>
+                                    <div class="jewel-card-info">
+                                        <h3 class="jewel-card-title">Colgante de Luna de Oro</h3>
+                                        <span class="jewel-card-price">€181,95</span>
+                                    </div>
+                                </a>
+
+                                <a class="jewel-card" href="colecciones.html">
+                                    <div class="jewel-card-img-wrap">
+                                        <img src="https://i.pinimg.com/1200x/f8/68/8d/f8688df22e7de3f1c079b26988afc5d4.jpg" alt="Solar Flare Necklace">
+                                    </div>
+                                    <div class="jewel-card-info">
+                                        <h3 class="jewel-card-title">Cadena Solar de Oro y Diamante</h3>
+                                        <span class="jewel-card-price">€145,95</span>
+                                    </div>
+                                </a>
+
+                                <a class="jewel-card" href="colecciones.html">
+                                    <div class="jewel-card-img-wrap">
+                                        <img src="https://i.pinimg.com/736x/df/f6/be/dff6bee3bd74531cf7ac473016963bc3.jpg" alt="Nebula Crystal Ring">
+                                    </div>
+                                    <div class="jewel-card-info">
+                                        <h3 class="jewel-card-title">Anillo Nébula de Ópalo y Oro Rosa</h3>
+                                        <span class="jewel-card-price">€211,95</span>
+                                    </div>
+                                </a>
+
+                                <a class="jewel-card" href="colecciones.html">
+                                    <div class="jewel-card-img-wrap">
+                                        <img src="https://i.pinimg.com/1200x/6b/5e/5f/6b5e5f45717946c009df393cf27bd5da.jpg" alt="Cosmic Drop Earrings">
+                                    </div>
+                                    <div class="jewel-card-info">
+                                        <h3 class="jewel-card-title">Pendientes Polvo Cósmico de Perla y Oro</h3>
+                                        <span class="jewel-card-price">€211,95</span>
+                                    </div>
+                                </a>
+
+                                <a class="jewel-card" href="colecciones.html">
+                                    <div class="jewel-card-img-wrap">
+                                        <img src="https://i.pinimg.com/1200x/0d/c5/e1/0dc5e1a655bc3c21b13b325677e6b23b.jpg" alt="Astrée Galaxy Pendant">
+                                    </div>
+                                    <div class="jewel-card-info">
+                                        <h3 class="jewel-card-title">Colgante Astrée Constelación con Zafiro</h3>
+                                        <span class="jewel-card-price">€160,00</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                        <button class="carousel-arrow prev" id="prevImages" type="button" aria-label="Anterior" disabled>
+                            &#8249;
+                        </button>
+                        <button class="carousel-arrow next" id="nextImages" type="button" aria-label="Siguiente">
+                            &#8250;
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="brand-strip">
+                <div class="page-container">
+                    <p class="eyebrow">El universo de Lunéa</p>
+                    <h2>Joyería con un significado especial</h2>
+                    <p>
+                        Creemos que los detalles más pequeños pueden marcar la mayor
+                        diferencia. Encuentra piezas que reflejen tu personalidad
+                        y se conviertan en parte de tu historia diaria.
+                    </p>
+                    <a class="btn-lunea" href="sobrenosotros.html">
+                        Descubrir Lunéa
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2026 Lunéa Jewellery. Todos los derechos reservados.</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
